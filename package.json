@@ -1,0 +1,11 @@
+{
+  "name": "test-nodemon-issue-1476",
+  "version": "1.0.0",
+  "scripts": {
+    "exec": "nodemon --exec 'node --inspect=9229 test-nodemon-issue-1476.js'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
