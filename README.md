@@ -5,8 +5,8 @@ First of all, please setup:
 
 Steps to reproduce issue #1476:
 
-    npm run exec
-
+* run npm script `npm run exec`
+* change javascript source file by adding an empty line (this will produce the 'address already in use'-error)
 
 Steps to test the fix:
     
